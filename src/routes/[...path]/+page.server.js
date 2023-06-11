@@ -7,15 +7,5 @@ export async function entries() {
   ];
 }
 
-/** @type {import('./$types').PageLoad} */
-export async function load(event) {
-  console.log(event.params)
-  return {
-    'title': 'some title',
-    'description': 'some description',
-    'path': event.params.path
-  }
-}
-
 export const prerender = true;
 
