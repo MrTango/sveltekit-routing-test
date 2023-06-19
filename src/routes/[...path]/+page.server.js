@@ -1,9 +1,9 @@
 /** @type {import('./$types').EntryGenerator} */
 export async function entries() {
   return [
-    { slug: '' },
-    { slug: 'bla' },
-    { slug: 'bla/blub/' }
+    { path: '' },
+    { path: 'bla' },
+    { path: 'bla/blub' }
   ];
 }
 
